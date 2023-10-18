@@ -8,7 +8,7 @@ const productRoutes = require("./routes/productRoutes");
 
 
 // [SECTION]Environment Setup
-const port = 4003;
+const port = 8000;
 
 // [SECTION]Server Setup
 const app = express();
