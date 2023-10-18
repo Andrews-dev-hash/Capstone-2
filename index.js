@@ -20,8 +20,8 @@ app.use(express.urlencoded({extended:true}));
 app.use(cors());
 
 // [SECTION] Backend Routes
-app.use("/b3/users", userRoutes);
-app.use("/b3/products", productRoutes);
+app.use("/users", userRoutes);
+app.use("/products", productRoutes);
 
 
 // [SECTION] Database connection
